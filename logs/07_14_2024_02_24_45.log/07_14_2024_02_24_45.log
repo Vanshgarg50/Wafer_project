@@ -1,0 +1,21 @@
+[ 2024-07-14 02:24:51,775 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-07-14 02:24:51,780 ] 96 werkzeug - INFO -  * Debugger PIN: 456-053-303
+[ 2024-07-14 02:24:54,250 ] 96 werkzeug - INFO - 127.0.0.1 - - [14/Jul/2024 02:24:54] "GET / HTTP/1.1" 200 -
+[ 2024-07-14 02:24:59,409 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-07-14 02:24:59,409 ] 60 root - INFO - Exporting data from mongodb
+[ 2024-07-14 02:25:00,778 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2024-07-14 02:25:00,897 ] 98 root - INFO - Got the data from mongodb
+[ 2024-07-14 02:25:00,897 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-07-14 02:25:00,898 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-07-14 02:25:01,314 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-07-14 02:25:01,345 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-07-14 02:25:01,346 ] 145 root - INFO - Splitting training and testing input and target feature
+[ 2024-07-14 02:25:01,346 ] 156 root - INFO - Extracting model config file path
+[ 2024-07-14 02:25:01,346 ] 163 root - INFO - Extracting model config file path
+[ 2024-07-14 02:26:25,581 ] 197 root - INFO - Best found model on both training and testing dataset
+[ 2024-07-14 02:26:25,581 ] 202 root - INFO - Saving model at path: artifacts\model.pkl
+[ 2024-07-14 02:26:25,582 ] 39 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-07-14 02:26:25,585 ] 45 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-07-14 02:26:25,586 ] 96 werkzeug - INFO - 127.0.0.1 - - [14/Jul/2024 02:26:25] "GET /train HTTP/1.1" 200 -
+[ 2024-07-14 02:26:26,303 ] 96 werkzeug - INFO - 127.0.0.1 - - [14/Jul/2024 02:26:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-07-14 02:28:33,354 ] 96 werkzeug - INFO - 127.0.0.1 - - [14/Jul/2024 02:28:33] "GET / HTTP/1.1" 200 -

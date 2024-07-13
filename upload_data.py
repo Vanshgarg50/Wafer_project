@@ -9,7 +9,7 @@ uri = "mongodb+srv://vanshgarg441:jALrM7C6TL7r4zU3@cluster0.klt4c9w.mongodb.net/
 client = MongoClient(uri)
 
 #create database name 
-DATABASE = 'vansh_wafer'
+DATABASE_NAME = 'vansh_wafer'
 COLLECTION_NAME = "waferfault"
 
 #dump the data into database
@@ -26,6 +26,6 @@ json_record=list(json.loads(df.T.to_json()).values())
 
 
 #dump the data into database
-client[DATABASE][COLLECTION_NAME].insert_many(json_record)
+client[DATABASE_NAME][COLLECTION_NAME].insert_many(json_record)
 
 
